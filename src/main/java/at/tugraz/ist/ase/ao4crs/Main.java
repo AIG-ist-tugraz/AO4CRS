@@ -74,7 +74,7 @@ public class Main {
         restrictivenessAllLeafFeatures(fmFile, filterFile, itemsFile, writer);
 
         // Check False Optional
-        checkFalseOptional(fmFile, filterFile, itemsFile, writer, queries_folder);
+        checkFalseOptional(fmFile, filterFile, itemsFile, writer);
 
         // Accessibility
         accessibility(fmFile, filterFile, itemsFile, writer);
@@ -135,8 +135,7 @@ public class Main {
     private static void checkFalseOptional(File fmFile,
                                            File filterFile,
                                            File itemsFile,
-                                           BufferedWriter writer,
-                                           String queries_folder) throws IOException, FeatureModelParserException {
+                                           BufferedWriter writer) throws IOException, FeatureModelParserException {
         String message = String.format("%sI.2. CHECK FALSE OPTIONAL:", LoggerUtils.tab());
         log.info(message);
         writer.write(message); writer.newLine();
