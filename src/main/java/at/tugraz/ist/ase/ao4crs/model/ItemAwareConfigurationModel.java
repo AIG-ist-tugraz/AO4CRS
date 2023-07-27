@@ -1,0 +1,113 @@
+/*
+ * Analysis Operations for Constraint-based Recommender Systems
+ *
+ * Copyright (c) 2023 AIG team, Institute for Software Technology, Graz University of Technology, Austria
+ *
+ * Contact: http://ase.ist.tugraz.at/ASE/
+ */
+
+package at.tugraz.ist.ase.ao4crs.model;
+
+import at.tugraz.ist.ase.ao4crs.model.translator.MZN2ChocoTranslator;
+import at.tugraz.ist.ase.hiconfit.common.LoggerUtils;
+import at.tugraz.ist.ase.hiconfit.configurator.ConfigurationModel;
+import at.tugraz.ist.ase.hiconfit.kb.core.*;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NonNull;
+import lombok.extern.slf4j.Slf4j;
+import lombok.val;
+import org.chocosolver.solver.variables.IntVar;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
+/**
+ * This class extends the {@link ConfigurationModel} class by adding the filter constraints.
+ */
+@Slf4j
+public class ItemAwareConfigurationModel extends ConfigurationModel {
+
+    @Getter
+    private MZN2ChocoTranslator translator;
+
+    private final File filterFile;
+    protected final List<Domain> filterDomainList = new LinkedList<>();
+    protected final List<Variable> filterVariableList = new LinkedList<>();
+    private final List<Constraint> filterConstraintList = new LinkedList<>();
+
+    @Builder
+    public ItemAwareConfigurationModel(@NonNull KB kb, boolean rootConstraints,
+                                       @NonNull File filterFile, @NonNull MZN2ChocoTranslator translator) {
+        super(kb, rootConstraints);
+
+        this.translator = translator;
+        this.filterFile = filterFile;
+    }
+
+    @Override
+    public void initialize() {
+        super.initialize();
+
+        // translate the filter constraints
+        try (InputStream filterStream = new FileInputStream(filterFile)) {
+            translator.translate(filterStream, this);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+        // sets new correct constraints to super class
+        log.trace("{}Adding correct constraints", LoggerUtils.tab());
+        val B = new LinkedList<>(super.getCorrectConstraints());
+        B.addAll(filterConstraintList);
+
+        this.setCorrectConstraints(B);
+
+        // remove all Choco constraints, since we just need variables
+        getModel().unpost(getModel().getCstrs());
+    }
+
+    public List<Variable> getPropertyVars() {
+        return filterVariableList;
+    }
+
+    public int getNumProperties() {
+        return filterVariableList.size();
+    }
+
+    public void addDomain(String domainName, List<String> domainValues) {
+        filterDomainList.add(Domain.builder()
+                .name(domainName)
+                .values(domainValues)
+                .build());
+    }
+
+    public Domain getDomain(String domainName) {
+        return filterDomainList.stream()
+                .filter(domain -> domain.getName().equals(domainName))
+                .findFirst()
+                .orElse(null);
+    }
+
+    public void addVariable(String varName, String domainName, IntVar intVar) {
+        val domain = getDomain(domainName);
+        val var = IntVariable.builder()
+                .name(varName)
+                .domain(domain)
+                .chocoVar(intVar).build();
+        filterVariableList.add(var);
+    }
+
+    public void addConstraint(Constraint constraint) {
+        filterConstraintList.add(constraint);
+    }
+
+    public org.chocosolver.solver.variables.Variable getVariable(String varName) {
+        return Arrays.stream(getModel().getVars()).filter(v -> v.getName().equals(varName)).findFirst().orElse(null);
+    }
+}

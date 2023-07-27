@@ -1,0 +1,596 @@
+I. RESTRICTIVENESS:
+   Requirement: fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: fastmoves=true, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: fastmoves=false, flexiblelens=false
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+I.1. RESTRICTIVENESS - ALL LEAF FEATURES:
+   Requirement: easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      4 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      5 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=true, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      5 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      6 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+I.2. CHECK FALSE OPTIONAL:
+   Requirement: easycarry=false, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      6 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: easycarry=false, watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      6 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: easycarry=false, people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: easycarry=false, fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=true, buildings=true], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: easycarry=false, buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+   Requirement: flexiblelens=false, easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      4 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      5 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: flexiblelens=false, watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=true, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: flexiblelens=false, people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: flexiblelens=false, fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=true, buildings=true], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: flexiblelens=false, buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+   Requirement: watertight=false, easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      4 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      5 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: watertight=false, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      6 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: watertight=false, people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: watertight=false, fastmoves=true
+      Support: 0
+      Total items: 10
+      Restrictiveness: 1.0
+   Requirement: watertight=false, buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+   Requirement: people=false, easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      4 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      5 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: people=false, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      6 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: people=false, watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: people=false, fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: people=false, buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+   Requirement: fastmoves=false, easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      4 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      5 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: fastmoves=false, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      6 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: fastmoves=false, watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      6 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      Support: 6
+      Total items: 10
+      Restrictiveness: 0.4
+   Requirement: fastmoves=false, people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: fastmoves=false, buildings=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=true], rf=6}
+      6 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=5}
+      7 Item{id='i9', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=false, buildings=true], rf=5}
+      8 Item{id='i10', properties=[accumulator=h, resolution=l, fps=a, weight=a, mount=t2, isolation=l], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      9 Item{id='i5', properties=[accumulator=h, resolution=a, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      10 Item{id='i7', properties=[accumulator=h, resolution=l, fps=l, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=false, fastmoves=false, buildings=true], rf=4}
+      Support: 10
+      Total items: 10
+      Restrictiveness: 0.0
+   Requirement: buildings=false, easycarry=true
+      1 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      3 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+   Requirement: buildings=false, flexiblelens=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: buildings=false, watertight=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      4 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      5 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      Support: 5
+      Total items: 10
+      Restrictiveness: 0.5
+   Requirement: buildings=false, people=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=true, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i4', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=true, watertight=true, people=true, fastmoves=false, buildings=false], rf=7}
+      3 Item{id='i8', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=h], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=true, people=true, fastmoves=false, buildings=false], rf=6}
+      4 Item{id='i2', properties=[accumulator=h, resolution=h, fps=a, weight=l, mount=no, isolation=l], fm_values=[digicam=true, usage=true, easycarry=true, flexiblelens=false, watertight=false, people=true, fastmoves=false, buildings=false], rf=5}
+      Support: 4
+      Total items: 10
+      Restrictiveness: 0.6
+   Requirement: buildings=false, fastmoves=true
+      1 Item{id='i1', properties=[accumulator=h, resolution=h, fps=h, weight=h, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=7}
+      2 Item{id='i3', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t2, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      3 Item{id='i6', properties=[accumulator=h, resolution=a, fps=h, weight=a, mount=t1, isolation=h], fm_values=[digicam=true, usage=true, easycarry=false, flexiblelens=true, watertight=true, people=false, fastmoves=true, buildings=false], rf=6}
+      Support: 3
+      Total items: 10
+      Restrictiveness: 0.7
+II. ACCESSIBILITY:
+   Item: i1
+      Occurrences: 31
+      Total recommendations: 47
+      Accessibility: 0.6595744680851063
+   Item: i2
+      Occurrences: 7
+      Total recommendations: 47
+      Accessibility: 0.14893617021276595
+   Item: i3
+      Occurrences: 15
+      Total recommendations: 47
+      Accessibility: 0.3191489361702128
+   Item: i4
+      Occurrences: 31
+      Total recommendations: 47
+      Accessibility: 0.6595744680851063
+   Item: i5
+      Occurrences: 3
+      Total recommendations: 47
+      Accessibility: 0.06382978723404255
+   Item: i6
+      Occurrences: 15
+      Total recommendations: 47
+      Accessibility: 0.3191489361702128
+   Item: i7
+      Occurrences: 3
+      Total recommendations: 47
+      Accessibility: 0.06382978723404255
+   Item: i8
+      Occurrences: 15
+      Total recommendations: 47
+      Accessibility: 0.3191489361702128
+   Item: i9
+      Occurrences: 7
+      Total recommendations: 47
+      Accessibility: 0.14893617021276595
+   Item: i10
+      Occurrences: 3
+      Total recommendations: 47
+      Accessibility: 0.06382978723404255
+III. ITEM SET COVERAGE:
+   Number of items recommended at least one: 10
+   Number of items: 10
+   Item Set Coverage: 1.0
+IV. VISIBILITY OF ITEMS:
+   Item: i1
+      rank: 1 - worst rank: 6
+      rank: 1 - worst rank: 6
+      rank: 1 - worst rank: 4
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 10
+      rank: 1 - worst rank: 5
+      rank: 1 - worst rank: 2
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 6
+      rank: 1 - worst rank: 6
+      rank: 1 - worst rank: 4
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 2
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 5
+      rank: 1 - worst rank: 2
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 2
+      rank: 1 - worst rank: 3
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      Visibility: 0.6836734693877551
+   Item: i2
+      rank: 3 - worst rank: 5
+      rank: 4 - worst rank: 4
+      rank: 6 - worst rank: 10
+      rank: 3 - worst rank: 3
+      rank: 3 - worst rank: 5
+      rank: 4 - worst rank: 4
+      rank: 3 - worst rank: 3
+      Visibility: 0.23529411764705888
+   Item: i3
+      rank: 3 - worst rank: 6
+      rank: 3 - worst rank: 6
+      rank: 2 - worst rank: 3
+      rank: 3 - worst rank: 10
+      rank: 3 - worst rank: 5
+      rank: 2 - worst rank: 3
+      rank: 2 - worst rank: 3
+      rank: 3 - worst rank: 6
+      rank: 3 - worst rank: 6
+      rank: 2 - worst rank: 3
+      rank: 2 - worst rank: 3
+      rank: 3 - worst rank: 5
+      rank: 2 - worst rank: 3
+      rank: 2 - worst rank: 3
+      rank: 2 - worst rank: 3
+      Visibility: 0.4558823529411765
+   Item: i4
+      rank: 1 - worst rank: 5
+      rank: 2 - worst rank: 6
+      rank: 2 - worst rank: 6
+      rank: 2 - worst rank: 4
+      rank: 2 - worst rank: 10
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 2
+      rank: 2 - worst rank: 5
+      rank: 1 - worst rank: 3
+      rank: 2 - worst rank: 2
+      rank: 2 - worst rank: 3
+      rank: 1 - worst rank: 5
+      rank: 2 - worst rank: 6
+      rank: 2 - worst rank: 6
+      rank: 2 - worst rank: 4
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 2
+      rank: 2 - worst rank: 2
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 2
+      rank: 2 - worst rank: 5
+      rank: 1 - worst rank: 3
+      rank: 2 - worst rank: 2
+      rank: 2 - worst rank: 3
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 1
+      rank: 1 - worst rank: 2
+      rank: 2 - worst rank: 2
+      rank: 1 - worst rank: 1
+      Visibility: 0.5306122448979591
+   Item: i5
+      rank: 4 - worst rank: 5
+      rank: 9 - worst rank: 10
+      rank: 4 - worst rank: 5
+      Visibility: 0.15000000000000002
+   Item: i6
+      rank: 4 - worst rank: 6
+      rank: 4 - worst rank: 6
+      rank: 3 - worst rank: 3
+      rank: 4 - worst rank: 10
+      rank: 4 - worst rank: 5
+      rank: 3 - worst rank: 3
+      rank: 3 - worst rank: 3
+      rank: 4 - worst rank: 6
+      rank: 4 - worst rank: 6
+      rank: 3 - worst rank: 3
+      rank: 3 - worst rank: 3
+      rank: 4 - worst rank: 5
+      rank: 3 - worst rank: 3
+      rank: 3 - worst rank: 3
+      rank: 3 - worst rank: 3
+      Visibility: 0.23529411764705888
+   Item: i7
+      rank: 5 - worst rank: 5
+      rank: 10 - worst rank: 10
+      rank: 5 - worst rank: 5
+      Visibility: 0.0
+   Item: i8
+      rank: 2 - worst rank: 5
+      rank: 5 - worst rank: 6
+      rank: 3 - worst rank: 4
+      rank: 5 - worst rank: 10
+      rank: 2 - worst rank: 2
+      rank: 2 - worst rank: 3
+      rank: 3 - worst rank: 3
+      rank: 2 - worst rank: 5
+      rank: 5 - worst rank: 6
+      rank: 3 - worst rank: 4
+      rank: 2 - worst rank: 2
+      rank: 2 - worst rank: 2
+      rank: 2 - worst rank: 3
+      rank: 3 - worst rank: 3
+      rank: 2 - worst rank: 2
+      Visibility: 0.2833333333333333
+   Item: i9
+      rank: 5 - worst rank: 6
+      rank: 6 - worst rank: 6
+      rank: 7 - worst rank: 10
+      rank: 5 - worst rank: 5
+      rank: 5 - worst rank: 6
+      rank: 6 - worst rank: 6
+      rank: 5 - worst rank: 5
+      Visibility: 0.11363636363636365
+   Item: i10
+      rank: 6 - worst rank: 6
+      rank: 8 - worst rank: 10
+      rank: 6 - worst rank: 6
+      Visibility: 0.09090909090909094
+V. CONTROVERSY OF FEATURES:
+   Feature: easycarry
+      Total URs including f: 16
+      Total inconsistent URs: 16
+      Controversy: 1.0
+   Feature: flexiblelens
+      Total URs including f: 8
+      Total inconsistent URs: 16
+      Controversy: 0.5
+   Feature: watertight
+      Total URs including f: 8
+      Total inconsistent URs: 16
+      Controversy: 0.5
+   Feature: people
+      Total URs including f: 8
+      Total inconsistent URs: 16
+      Controversy: 0.5
+   Feature: fastmoves
+      Total URs including f: 16
+      Total inconsistent URs: 16
+      Controversy: 1.0
+   Feature: buildings
+      Total URs including f: 8
+      Total inconsistent URs: 16
+      Controversy: 0.5
+VI. GLOBAL CONTROVERSY:
+   Total inconsistent URs: 16
+   Total URs: 63
+   Global controversy: 0.25396825396825395

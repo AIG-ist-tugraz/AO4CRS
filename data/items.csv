@@ -1,0 +1,10 @@
+item=i1,accumulator=h,resolution=h,fps=h,weight=h,mount=t1,isolation=h
+item=i2,accumulator=h,resolution=h,fps=a,weight=l,mount=no,isolation=l
+item=i3,accumulator=h,resolution=a,fps=h,weight=a,mount=t2,isolation=h
+item=i4,accumulator=h,resolution=h,fps=a,weight=l,mount=t1,isolation=h
+item=i5,accumulator=h,resolution=a,fps=a,weight=l,mount=no,isolation=l
+item=i6,accumulator=h,resolution=a,fps=h,weight=a,mount=t1,isolation=h
+item=i7,accumulator=h,resolution=l,fps=l,weight=l,mount=no,isolation=l
+item=i8,accumulator=h,resolution=h,fps=a,weight=l,mount=no,isolation=h
+item=i9,accumulator=h,resolution=l,fps=a,weight=a,mount=t1,isolation=h
+item=i10,accumulator=h,resolution=l,fps=a,weight=a,mount=t2,isolation=l
